@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 img {
@@ -13,4 +14,33 @@ img {
 ul {
   padding-left: 0;
   list-style: none;
+}
+
+.nav {
+  padding: 0.2rem 1.5rem;
+  overflow: auto;
+  background: #009be8;
+  color: #fefefe;
+}
+
+.nav__left {
+  float:left;
+}
+
+.nav__text {
+  font-size: 1.2rem;
+font-weight: 400;;
+}
+
+.nav__right {
+float:right;
+}
+
+.nav-list{
+overflow: auto;
+}
+
+.nav-list__item {
+  float:left;
+  margin: 0 1rem;
 }
