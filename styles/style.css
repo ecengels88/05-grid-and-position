@@ -59,10 +59,10 @@ ul {
 .grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .grid__item {
-  max-width: 28rem;
   margin: 1rem;
   flex-basis: calc(100%/2 - 2rem);
   flex-grow: 1;
